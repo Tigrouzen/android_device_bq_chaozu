@@ -1,7 +1,7 @@
-Device Tree for BQ Aquaris U Plus (tenshi)
+Device Tree for BQ Aquaris U Lite (chaozulite)
 ===========================================
 
-The BQ Aquaris U Plus (codenamed _"tenshi"_) is a low-mid range smartphone from BQ.
+The BQ Aquaris U Lite (codenamed _"chazoulite"_) is a low range smartphone from BQ.
 It was released in October 2016.
 
 Copyright 2016 - The CyanogenMod Project.
