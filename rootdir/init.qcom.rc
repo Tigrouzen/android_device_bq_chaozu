@@ -335,9 +335,6 @@ on boot
 
     chmod 0444 /sys/devices/platform/msm_hsusb/gadget/usb_state
 
-    chown system system /sys/devices/soc/78b7000.i2c/i2c-3/3-005f/irq
-    chown system system /sys/devices/soc/78b7000.i2c/i2c-3/3-005f/clk_enable
-    chown system system /sys/devices/soc/78b7000.i2c/i2c-3/3-005f/wakeup_enable
     #For bridgemgr daemon to inform the USB driver of the correct transport
     chown radio radio /sys/class/android_usb/f_rmnet_smd_sdio/transport
 
@@ -1145,13 +1142,6 @@ service poweroffhandler /system/bin/poweroffhandler
     group graphics audio
     disabled
     oneshot
-
-service fingerprintd /system/bin/fingerprintd
-    class late_start
-    socket fpce stream 0666 system system
-    user  system
-    group system sdcard_rw
-    disabled
 
 # Start camera server as daemon
 service qcamerasvr /system/bin/mm-qcamera-daemon
