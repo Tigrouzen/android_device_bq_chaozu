@@ -1,7 +1,7 @@
-Device Tree for BQ Aquaris U Lite (chaozulite)
+Device Tree for BQ Aquaris U (chaozu)
 ===========================================
 
-The BQ Aquaris U Lite (codenamed _"chazoulite"_) is a low range smartphone from BQ.
+The BQ Aquaris U (codenamed _"chazou"_) is a low range smartphone from BQ.
 It was released in October 2016.
 
 Copyright 2016 - The CyanogenMod Project.

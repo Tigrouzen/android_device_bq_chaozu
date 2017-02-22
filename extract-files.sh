@@ -17,7 +17,7 @@
 
 set -e
 
-DEVICE=chaozulite
+DEVICE=chaozu
 VENDOR=bq
 
 # Load extractutils and do some sanity checks

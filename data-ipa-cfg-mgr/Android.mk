@@ -1,4 +1,4 @@
-ifeq ($(TARGET_DEVICE),chaozulite)
+ifeq ($(TARGET_DEVICE),chaozu)
 
 include $(call all-subdir-makefiles)
 
