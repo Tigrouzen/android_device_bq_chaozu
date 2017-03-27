@@ -26,7 +26,7 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := bq
 PRODUCT_DEVICE := chaozu
-PRODUCT_NAME := cm_chaozu
+PRODUCT_NAME := lineage_chaozu
 PRODUCT_BRAND := bq
 PRODUCT_MODEL := Aquaris U
 PRODUCT_MANUFACTURER := bq
