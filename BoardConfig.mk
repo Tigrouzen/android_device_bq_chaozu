@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
+LOCAL_PATH := device/bq/chaozu
+
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := Aquaris_U,chaozu
-
-LOCAL_PATH := device/bq/chaozu
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8937
