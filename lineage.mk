@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -30,6 +30,10 @@ PRODUCT_NAME := lineage_chaozu
 PRODUCT_BRAND := bq
 PRODUCT_MODEL := Aquaris U
 PRODUCT_MANUFACTURER := bq
+
+# Set product device & name
+PRODUCT_BUILD_PROP_OVERRIDES += \
+   PRODUCT_NAME=chaozu
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
