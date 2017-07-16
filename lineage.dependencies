@@ -1,14 +1,6 @@
 [
  {
-   "repository": "android_external_bson",
-   "target_path": "external/bson"
+   "repository": "android_device_bq_msm89x7-common",
+   "target_path": "device/bq/msm89x7-common"
  },
- {
-   "repository": "android_external_stlport",
-   "target_path": "external/stlport"
- },
- {
-   "repository":"android_device_qcom_common",
-   "target_path":"device/qcom/common"
- }
 ]
