@@ -18,7 +18,7 @@
 $(call inherit-product, device/bq/chaozu/device.mk)
 
 # Inherit common parts
-$(call inherit-product, device/bq/msm89x7-common/common.mk)
+$(call inherit-product, device/bq/msm89x7-common/lineage.mk)
 
 # Set those variables here to overwrite the inherited values.
 PRODUCT_DEVICE := chaozu
