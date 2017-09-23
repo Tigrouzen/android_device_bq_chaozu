@@ -190,7 +190,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw  \
+    libstagefright_soft_flacdec
 
 # Power
 PRODUCT_PACKAGES += \
