@@ -211,8 +211,9 @@
     <bool name="config_dozeAfterScreenOff">true</bool>
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
 
-    <!-- Component name of the combo network location provider. -->
-    <string name="config_comboNetworkLocationProvider" translatable="false">com.qualcomm.location</string>
+    <!-- Package name providing network location support. Used only when
+         config_enableNetworkLocationOverlay is false. -->
+    <string name="config_networkLocationProviderPackageName" translatable="false">com.qualcomm.location</string>
 
     <!-- Operating voltage for bluetooth controller. 0 by default-->
     <integer translatable="false" name="config_bluetooth_operating_voltage_mv">3300</integer>
