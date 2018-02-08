@@ -41,5 +41,5 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_GMS_CLIENTID_BASE := android-bq
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="bq/chaozu/chaozu:6.0.1/MMB29M/1481901253:user/release-keys" \
-    PRIVATE_BUILD_DESC="chaozu-user 6.0.1 MMB29M 1.4.6_20161216-1410 release-keys"
+    BUILD_FINGERPRINT="bq/chaozu/chaozu:7.1.1/NMF26F/1509102792:user/release-keys" \
+    PRIVATE_BUILD_DESC="chaozu-user 7.1.1 NMF26F 2.4.3_20171027-1302 release-keys"
